@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: spring-sensors-rabbit
+  name: spring-sensors-v2
   description: Spring Sensors
   tags:
     - app-accelerator
@@ -9,7 +9,7 @@ metadata:
     - spring
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-rabbit'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-v2'
 spec:
   type: service
   lifecycle: experimental
