@@ -17,4 +17,4 @@ spec:
       revision: 32c7fc8cec31bc674531df17fec8ea1bbeff26a8
       url: https://github.com/tanzu-end-to-end/spring-sensors-sensor
   successBuildHistoryLimit: 10
-  tag: harbor.trvharbor.com/supply-chain-images/images:latest
+  tag: harbor.trvharbor.com/aws-tap/images:latest
